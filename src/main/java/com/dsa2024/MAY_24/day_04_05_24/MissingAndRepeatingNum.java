@@ -1,4 +1,4 @@
-package com.dsa2024.MAY_24.day_4_05_24;
+package com.dsa2024.MAY_24.day_04_05_24;
 
 import java.util.Arrays;
 
