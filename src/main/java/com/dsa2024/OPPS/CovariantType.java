@@ -15,7 +15,7 @@ class Apple extends Fruit {
     }
 }
 
-public class CovariatType {
+public class CovariantType {
     public static void main(String[] args) {
         Fruit fruit = new Apple();
         fruit.get(); 
