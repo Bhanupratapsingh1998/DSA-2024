@@ -25,7 +25,7 @@ interface MyInterface {
         return x;
     }
 
-    default void privateMethod() {
+    private void privateMethod() {
         System.out.println("Private method in MyInterface.");
     }
 
