@@ -8,7 +8,6 @@ public class StaticExample {
     static void staticMethod() {
         System.out.println("This is a static method.");
         System.out.println("Static variable: " + staticVariable);
-
     }
 
     void instanceMethod() {
