@@ -25,23 +25,13 @@ interface MyInterface {
         return x;
     }
 
-    private void privateMethod() {
-        System.out.println("Private method in MyInterface.");
-    }
+    // private void privateMethod() {
+    // System.out.println("Private method in MyInterface.");
+    // }
 
-    default void defaultMethod() {
-        privateMethod();
-    }
-
-    static void staticMethod() {
-        // Creating an anonymous class to access the private instance method
-        new MyInterface() {
-            @Override
-            public void start() {
-                // No implementation needed for this example
-            }
-        }.privateMethod();
-    }
+    // default void defaultMethod() {
+    // privateMethod();
+    // }
 }
 
 class Car implements MyInterface {
@@ -76,8 +66,5 @@ public class InterfaceExamples {
         // Calling static methods on the interface
         MyInterface.maintenance(); // Output: Performing maintenance check.
         System.out.println("Value of x: " + MyInterface.getX()); // Output: Value of x: 10
-
-        // Demonstrating the use of static and default methods that use private methods
-        MyInterface.staticMethod(); // Output: Private method in MyInterface.
     }
 }
