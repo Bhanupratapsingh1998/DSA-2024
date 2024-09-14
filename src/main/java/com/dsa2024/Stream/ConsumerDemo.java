@@ -11,6 +11,8 @@ public class ConsumerDemo {
          * Method: void accept(T t)
          * Scenario: Imagine you have a list of employees, and you want to give each of
          * them a 10% raise and then print their updated salary.
+         * Use : when you need to perform an action (like printing or modifying) on an
+         * object
          */
         Employee emp = new Employee(1, "John Doe", 50000, "IT");
         System.out.println(emp);
