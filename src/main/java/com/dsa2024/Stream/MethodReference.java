@@ -1,7 +1,5 @@
 package com.dsa2024.Stream;
 
-import com.dsa2024.OPPS.Collections.Comparator.Main;
-
 public class MethodReference {
     public static void main(String[] args) {
         // Anonymous class implementation
@@ -24,9 +22,24 @@ public class MethodReference {
         // static method reference in Integer class
         Calculator calc4 = Integer::sum;
         System.out.println("Method reference Integer sum : " + calc4.sum(10, 20));
+
+        IPrint iPrint = MethodReference::printStr;
+        iPrint.printData("Something about return type concepts.");
+
+        IPrint iPrint1 = MethodReference::printStr1;
+        iPrint1.printData("Something about return type concepts.");
     }
 
     public static int addNumbers(int a, int b) {
         return a + b;
+    }
+
+    public static void printStr(String str) {
+        System.out.println(str);
+    }
+
+    public static String printStr1(String str) {
+        System.out.println(str);
+        return str;
     }
 }

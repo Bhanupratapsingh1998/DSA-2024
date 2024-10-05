@@ -1,4 +1,4 @@
-package com.dsa2024.CollectionFramework.HashMap;
+package com.dsa2024.OPPS.Collections.HashMap;
 
 import java.util.HashMap;
 
