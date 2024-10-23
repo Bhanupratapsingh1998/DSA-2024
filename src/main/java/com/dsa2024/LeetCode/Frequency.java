@@ -1,4 +1,4 @@
-package com.dsa2024.OPPS.Collections.HashMap;
+package com.dsa2024.LeetCode;
 
 import java.util.HashMap;
 
