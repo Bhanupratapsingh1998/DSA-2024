@@ -16,14 +16,14 @@ public class MissingAndRepeatingNum {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] > 0) {
                 result[1] = i + 1; // Missing number
-                break;   
+                break;
             }
         }
         return result;
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,1,5,3,4};
+        int[] nums = { 3, 1, 5, 6, 4 };
         int[] missingNumbers = findMissingNumbers(nums);
         System.out.println(Arrays.toString(missingNumbers)); // Output: [3, 4]
     }
