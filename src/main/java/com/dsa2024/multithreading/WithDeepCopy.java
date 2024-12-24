@@ -1,4 +1,4 @@
-package com.dsa2024.multithreading.deep_shallow_copy;
+package com.dsa2024.multithreading;
 
 class Account1 implements Cloneable {
     int balance;
