@@ -24,5 +24,9 @@ public class HashMapDuplicateKeyExample {
         // Check if p1 and p3 are treated as different keys
         System.out.println("Get p1: " + map.get(p1));
         System.out.println("Get p3: " + map.get(p3));
+
+        map.forEach((person, profession) -> 
+        System.out.println(person + " -> " + profession)
+    );
     }
 }
